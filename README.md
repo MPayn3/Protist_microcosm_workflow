@@ -21,6 +21,6 @@ Work through Full Guide to Protist Microcosm Experiments
 
 ##Acknowledgments 
 
-Both software authored by Marc Besson (https://marcbesson.com/). Code by John Jackson (https://linktr.ee/jjackson_eco) and Francesco Cerini (@franzmatches). 
-The Experimental Conservation lab groups is led by Dr Christopher Clements (@ExperimentalConservation)
+Both software authored by Marc Besson (https://marcbesson.com/). Code by John Jackson (https://linktr.ee/jjackson_eco) and Francesco Cerini [@franzmatches], adapted by me. 
+The Experimental Conservation lab groups is led by Dr Christopher Clements [@ExperimentalConservation]
 
