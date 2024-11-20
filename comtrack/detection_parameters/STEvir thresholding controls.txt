@@ -1,0 +1,60 @@
+<SMOOTHING_PARAMS>
+	<Smoothing_Method>
+		<SmoothingName>Gaussian Blurring</SmoothingName>
+			<GaussianBlurKernel>7</GaussianBlurKernel>
+			<GaussianBlurSigmaX>0.0</GaussianBlurSigmaX>
+			<GaussianBlurSigmaY>0.0</GaussianBlurSigmaY>
+			<GaussianBlurBorderType>BORDER_DEFAULT</GaussianBlurBorderType>
+	</Smoothing_Method>
+ 	<Smoothing_Method>
+		<SmoothingName>Gaussian Blurring</SmoothingName>
+			<GaussianBlurKernel>7</GaussianBlurKernel>
+			<GaussianBlurSigmaX>0.0</GaussianBlurSigmaX>
+			<GaussianBlurSigmaY>0.0</GaussianBlurSigmaY>
+			<GaussianBlurBorderType>BORDER_DEFAULT</GaussianBlurBorderType>
+	</Smoothing_Method>
+</SMOOTHING_PARAMS>
+<DETECTION_PARAMS>
+	<Enable_Detections>True</Enable_Detections>
+	<Multiframe_Detections>
+		<multiframeDetections_Enable>True</multiframeDetections_Enable>
+		<multiframeDetections_Method>Thresholding</multiframeDetections_Method>
+		<multiframeDetections_Method_Thresholding_ThreshVal>60</multiframeDetections_Method_Thresholding_ThreshVal>
+		<multiframeDetections_Method_Thresholding_MaxVal>255</multiframeDetections_Method_Thresholding_MaxVal>
+		<multiframeDetections_Method_Thresholding_Type>THRESH_BINARY</multiframeDetections_Method_Thresholding_Type>
+		<multiframeDetections_Contouring_Method>CHAIN_APPROX_SIMPLE</multiframeDetections_Contouring_Method>
+		<multiframeDetections_Contouring_Mode>RETR_EXTERNAL</multiframeDetections_Contouring_Mode>
+		<multiframeDetections_Contouring_MinArea>800</multiframeDetections_Contouring_MinArea>
+		<multiframeDetections_Contouring_MaxArea>999999</multiframeDetections_Contouring_MaxArea>
+		<multiframeDetections_MiscParams_PreLabelDetections>True</multiframeDetections_MiscParams_PreLabelDetections>
+		<multiframeDetections_MiscParams_PreLabelDetectionsEntry>NONpro</multiframeDetections_MiscParams_PreLabelDetectionsEntry>
+		<multiframeDetections_MiscParams_EnlargeBBoxes>True</multiframeDetections_MiscParams_EnlargeBBoxes>
+		<multiframeDetections_MiscParams_EnlargeBBoxesEntry>25</multiframeDetections_MiscParams_EnlargeBBoxesEntry>
+		<multiframeDetections_MiscParams_IgnoreOverlappingBBoxes>True</multiframeDetections_MiscParams_IgnoreOverlappingBBoxes>
+		<multiframeDetections_MiscParams_IgnoreOverlappingBBoxesEntry>0.0</multiframeDetections_MiscParams_IgnoreOverlappingBBoxesEntry>
+		<multiframeDetections_MiscParams_RemoveBackground>False</multiframeDetections_MiscParams_RemoveBackground>
+	</Multiframe_Detections>
+	<Singleframe_Detections>
+		<singleframeDetections_Enable>False</singleframeDetections_Enable>
+		<singleframeDetections_Method>None</singleframeDetections_Method>
+	</Singleframe_Detections>
+</DETECTION_PARAMS>
+<TRACKING_PARAMS>
+	<Tracking_TabIsChecked>True</Tracking_TabIsChecked>
+	<Tracking_Method>Kalman Filter</Tracking_Method>
+		<KFNoise>1.0</KFNoise>
+		<KFTimeStep>0.01</KFTimeStep>
+		<KFMaxDistance>20000.0</KFMaxDistance>
+</TRACKING_PARAMS>
+<CLASSIFIER_PARAMS>
+	<Classifier_TabIsChecked>False</Classifier_TabIsChecked>
+	<Classifier_imageType>Cropped Detections</Classifier_imageType>
+	<Classifier_imageDims>128</Classifier_imageDims>
+	<Classifier_classifySF>False</Classifier_classifySF>
+	<Classifier_singleFrameImageType>Cropped Detections</Classifier_singleFrameImageType>
+	<Classifier_singleFrameImageDims>128</Classifier_singleFrameImageDims>
+</CLASSIFIER_PARAMS>
+<TIMEFRAME_PARAMS>
+	<Timeframe_TabIsChecked>True</Timeframe_TabIsChecked>
+	<Timeframe_singleFrameAt>1</Timeframe_singleFrameAt>
+</TIMEFRAME_PARAMS>
